@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <script src="https://kit.fontawesome.com/b199a44b40.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img id='header-logo' src="Logo.png" alt="Brand Logo">
+        <nav>
+            <a class='nav-link' href="#home">Home</a>
+            <a class='nav-link' href="#skills-title">Skills</a>
+            <a class='nav-link' href="#projects-title">Projects</a>
+            <a class='nav-link' href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id='home'>
+            <div id='overlay'>
+                <h1>Hi, I'm Tiago</h1>
+                <p>Web Developer that enjoys learning building things.</p>
+            </div>
+        
+            <section id='background-video'>
+                <video autoplay loop muted>
+                    <source src="Video.mp4">
+                </video>
+            </section>
+        </section>
+
+                <h2 id='skills-title'>Skills</h2>
+
+        <section id='skills'>
+            <div id='icons'>
+
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-figma"></i>
+                <i class="fab fa-github"></i>
+                <i class="fab fa-git-alt"></i>
+            </div>
+        </section>
+
+                <h2 id='projects-title'>Projects</h2>
+
+        <section id='projects'>
+            <div class='project'>
+                <img src="Food Recipes by Ingredient Gif.gif" alt="Food Recipes by Ingredient Gif">
+                <button class='projectbtn' onclick="window.open('https://raikneroz.github.io/Food-Recipes-by-Ingredient.github.io/', '_blank')" type="button">Website</button>
+                <i class="fab fa-github" id='projectbtn1' onclick="window.open('https://github.com/Raikneroz/Food-Recipes-by-Ingredient.github.io', '_blank')" type="button"></i>
+            </div>
+
+            <div class='project'>
+                <img src="Landing Page Gif.gif" alt="Landing Page Gif">
+                <button class='projectbtn' onclick="window.open('https://raikneroz.github.io/Product-Landing-Page.github.io/', '_blank')" type="button">Website</button>
+                <i class="fab fa-github" id='projectbtn1' onclick="window.open('https://github.com/Raikneroz/Product-Landing-Page.github.io', '_blank')" type="button"></i>
+            </div>
+
+            <div class='project'>
+                <img src="Random Dog and Fox Images Generator Gif.gif" alt="Random Dog and Fox Images Generator Gif">
+                <button class='projectbtn' onclick="window.open('https://raikneroz.github.io/Random-Dog-and-Fox-Images-Generator.github.io/', '_blank')" type="button">Website</button>
+                <i class="fab fa-github" id='projectbtn1' onclick="window.open('https://github.com/Raikneroz/Random-Dog-and-Fox-Images-Generator.github.io', '_blank')" type="button"></i>
+            </div>
+
+            <div class='project'>
+                <img src="Survey Form Gif.gif" alt="Survey Form Gif">
+                <button class='projectbtn' onclick="window.open('https://raikneroz.github.io/Survey-Form.github.io/', '_blank')" type="button">Website</button>
+                <i class="fab fa-github" id='projectbtn1' onclick="window.open('https://github.com/Raikneroz/Survey-Form.github.io', '_blank')" type="button"></i>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+                <h4>Contact</h4>
+
+        <section id='contact'>
+            <form action="https://formsubmit.co/1de7032d0d8eaf84d6f64b0c2d23310b" method="POST" target="_blank" name="Email_Form">
+
+                <input type="hidden" value="http://127.0.0.1:5500/Portfolio/PortfolioThankYou.html" name="_next">
+                <input type="hidden" value="New email whooo, great success!" name="_subject">
+
+                <div class='form-flow'>
+                    <label for="firstname">First Name</label>
+                    <input id='firstname' type="text" required="" name="First_Name" placeholder="Enter your first name">
+                </div>
+
+                <div class='form-flow'>
+                    <label for="lastname">Last Name</label>
+                    <input id='lastname' type="text" required="" name="Last_Name" placeholder="Enter your last name">
+                </div>
+
+                <div class='form-flow'>
+                    <label for="countryname">Country</label>
+                    <input id='countryname' type="text" required="" name="Country" placeholder="Enter your country">
+                </div>
+
+                <div class='form-flow'>
+                    <label for="emailaddress">Email</label>
+                    <input id='emailaddress' type="email" required="" name="Email" placeholder="Enter your email address">
+                </div>
+
+                <div class='form-flow'>
+                    <label for="subject">Subject</label>
+                    <textarea id='subject' required="" name="Subject" placeholder="Write your message please"></textarea>
+                </div>
+
+                <div id='submit-btn'>
+                    <button id='submitbtn' type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </footer>
+</body>
+</html>
