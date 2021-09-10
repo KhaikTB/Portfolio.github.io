@@ -12,6 +12,7 @@ The objective of this project was to build a portfolio to display my projects.
 
 - HTML5
 - CSS3
+- Figma
 
 <br>
 
