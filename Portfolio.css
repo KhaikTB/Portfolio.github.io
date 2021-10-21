@@ -185,6 +185,17 @@ h2:hover, h4:hover
     color: orangered;
 }
 
+.fa-searchengin
+{
+    color: white;
+}
+
+.fa-wordpress-simple
+{
+    background: hsl(0, 2%, 25%);
+    color: white;
+}
+
 /* Projects */
 
 #projects
